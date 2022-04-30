@@ -2,6 +2,7 @@ function desplegarResultado() {
     const artista = JSON.parse(this.responseText);
     const img = document.createElement("img");
     img.src = artista.artists[0].strArtistThumb;
+    img.style = "width:100%"
     const imagen = document.getElementById("imagen");
     imagen.innerHTML = "";
     imagen.appendChild(img);
@@ -28,6 +29,7 @@ function desplegarResultado() {
 
     const logoBanda = document.createElement("img")
     logoBanda.src = artista.artists[0].strArtistLogo
+    logoBanda.style = "width:100%"
     logo.innerHTML = "";
     document.getElementById("logo").appendChild(logoBanda)
 
