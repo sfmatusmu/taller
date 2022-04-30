@@ -1,0 +1,29 @@
+body {
+    background-image: url(fondo.jpeg);
+    color: #fff;
+    text-shadow: 3px 3px 3px black;
+}
+
+button,
+input {
+    margin: 13px;
+    font-family: inherit;
+}
+
+.texto {
+    text-align: justify;
+    font-size: 44px;
+    font-weight: bold;
+    color: black;
+    margin-left: -155px;
+}
+
+.borde {
+    display: fluid;
+    border: 3px solid;
+    width: 75%;
+}
+
+.rectangulo {
+    font-size: 20px;
+}
